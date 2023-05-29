@@ -61,17 +61,14 @@ onMounted(() => {
             <th scope="col" class="px-6 py-3">Uchrashuv sanasi</th>
             <th scope="col" class="px-6 py-3">Uchrashuv vaqti</th>
             <th scope="col" class="px-6 py-3">Baholash</th>
-            <th scope="col" class="px-6 py-3">Harakatlar</th>
           </tr>
         </thead>
         <tbody>
           <tr
             v-for="(el, i) in orders"
             :key="i"
-            :class="
-              el.date === '21.5.2023'
-                ? 'bg-blue-100 border-b border-gray-400 dark:bg-gray-800 dark:border-gray-700 '
-                : 'bg-red-100 border-b border-gray-400 dark:bg-gray-800 dark:border-gray-700'
+            class="
+              bg- border-b border-gray-400 dark:bg-gray-800 dark:border-gray-700
             "
           >
             <th
@@ -113,15 +110,6 @@ onMounted(() => {
                     rows="10"
                   ></textarea>
                 </details>
-              </button>
-            </td>
-            <td>
-              <button
-                @click="store.DEL(el.id)"
-                href="#"
-                class="font-medium bg-red-600 py-3 px-6 rounded-lg text-white dark:text-white hover:bg-red-700 focus:ring-4 focus:ring-red-300"
-              >
-                O'chirish
               </button>
             </td>
           </tr>

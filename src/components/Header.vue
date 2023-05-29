@@ -73,7 +73,7 @@ const toggleAcc = () => (acc.value = !acc.value)
                   class="focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-1 py-1 inline-flex items-center dark:focus:ring-blue-800 dark:text-white"
                   type="button"
                 >
-                  <img src="https://i.pravatar.cc/50?img=70" alt="" class="rounded-full" />
+                  <img src="https://i.pravatar.cc/50" alt="" class="rounded-full" />
                 </button>
                 <!-- Dropdown menu -->
                 <div
