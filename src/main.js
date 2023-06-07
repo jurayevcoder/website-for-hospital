@@ -11,14 +11,14 @@ import { initializeApp } from 'firebase/app'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyD-CwO2f7_iA0RCFKS3u2HhGk3_hq8RqcM',
-  authDomain: 'soglomlashtirish.firebaseapp.com',
-  projectId: 'soglomlashtirish',
-  storageBucket: 'soglomlashtirish.appspot.com',
-  messagingSenderId: '887365633771',
-  appId: '1:887365633771:web:2da4f22f3a148c79aa60ae',
-  measurementId: 'G-96NH1JGKRB'
-}
+  apiKey: "AIzaSyBW9kvsvZUkA5CQXVck45rM3_df5ch6x9M",
+  authDomain: "hospital-ec6dd.firebaseapp.com",
+  projectId: "hospital-ec6dd",
+  storageBucket: "hospital-ec6dd.appspot.com",
+  messagingSenderId: "699477188670",
+  appId: "1:699477188670:web:b4037e4e5e76b5f99d716f",
+  measurementId: "G-PD7EVS3QNP"
+};
 
 const firebaseApp = initializeApp(firebaseConfig)
 const db = getFirestore(firebaseApp)
