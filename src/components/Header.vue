@@ -17,7 +17,7 @@ const toggleAcc = () => (acc.value = !acc.value)
 </script>
 
 <template>
-  <header class="fixed w-full z-50 bg-gray-100 dark:bg-gray-900">
+  <header class="fixed w-full z-50 bg-gray-100 dark:bg-gray-700">
     <div class="container">
       <nav class="">
         <div class="flex flex-wrap items-center justify-between">
@@ -55,7 +55,7 @@ const toggleAcc = () => (acc.value = !acc.value)
             id="navbar-default"
           >
             <ul
-              class="font-medium flex items-center md:p-0 mt-4 rounded-lg md:space-x-8 md:mt-0 dark:bg-gray-900 dark:border-gray-700 dark:text-white"
+              class="font-medium flex items-center md:p-0 mt-4 rounded-lg md:space-x-8 md:mt-0 dark:border-gray-700 dark:text-white"
             >
               <li v-for="(el, idx) in navlinks" :key="idx">
                 <router-link
